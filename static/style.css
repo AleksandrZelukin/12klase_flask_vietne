@@ -1,8 +1,8 @@
 /* navigacijas izvelne */
-@import url(https://fonts.googleapis.com/css?family=Lora);
+/* @import url(https://fonts.googleapis.com/css?family=Lora); */
 /* body {margin:0;} */
 h2 {
-  font-family: monospace;
+  /* font-family: monospace; */
   color: #606060;
 }
 ul {
@@ -11,7 +11,7 @@ ul {
 }
 a {
   text-decoration: none;
-  font-family: 'Lora', serif;
+  /* font-family: 'Lora', serif; */
   transition: .5s linear;
 }
 i {
