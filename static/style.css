@@ -1,10 +1,18 @@
+/* https://nz4.ru/sozdanie-sajta/horizontal-menu-html-css/ */
+
 ul {
   list-style: none;
+  display: flex;
   margin: 0; 
   padding-left: 0; 
+  height: 50px;
 }
 a {
-  text-decoration: none; 
+  text-decoration: none;
+  padding:0px 15px;
+  line-height:50px;
+  display: block;
+  
 }
 li {
   float:left; 
