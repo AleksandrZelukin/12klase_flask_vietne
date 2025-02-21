@@ -1,19 +1,18 @@
-
-ul{
-  display: flex;
-  list-style: none;
-  height: 50px;
-  margin-top:25px;
+/* navigacijas izvelne */
+@import url(https://fonts.googleapis.com/css?family=Lora);
+/* body {margin:0;} */
+h2 {
+  font-family: monospace;
+  color: #606060;
 }
-li{
-  float: left;
-  margin-right: 10px;
+ul {
+  list-style: none; 
+  margin: 0 auto;
 }
  a {
   text-decoration: none;
-  padding:0px 15px;
-  line-height:50px;
-  display: block;
+  font-family: 'Lora', serif;
+  transition: .5s linear;
 }
 body {
   background-color: rgb(80, 255, 121);
