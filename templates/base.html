@@ -2,24 +2,25 @@
     <html>
     <head>
     <link href="static/style.css"rel="stylesheet">
+    <link href="static/laiks.js">
     <title>{{title}}</title>
     </head>
     <body>
   <header>
   <nav>
-            <ul>
-              <li><a class="A" href="/">Home  </a></li>
-              <li><a class="A" href="/authorization">Autorizacija </a></li>
-              <li><a class="A" href="/about">About  </a></li>
-              <li><a class="A" href="/blog">Blog  </a></li>
-              <li><a class="A" href="/contact">Contact  </a></li>
-            </ul>
+    <ul>
+      <li><a href="/">Home  </a></li>
+      <li><a  href="/autorizacija">Autorizacija </a></li>
+      <li><a href="/about">About  </a></li>
+      <li><a href="/blog">Blog  </a></li>
+      <li><a href="/contact">Contact  </a></li>
+    </ul>
   </nav>
   </header>
-<div>
+
   {% block content %}
   {% endblock %}
-</div>
-    <footer>&copy Rīgas 92.vidusskola</footer>
-    </body>
-    </html>
+
+<footer>&copy Rīgas 92.vidusskola</footer>
+</body>
+</html>
