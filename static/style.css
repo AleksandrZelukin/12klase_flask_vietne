@@ -35,6 +35,14 @@ nav ul {
     line-height:40px;
   }
 
+  .parent {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 200;
+    left: 300;
+    overflow: auto;
+}
 
   
 .countdown{
@@ -45,16 +53,17 @@ nav ul {
 
 .countdown div{
   position: relative;
-  width: 100px;
-  height: 100px;
-  line-height: 100px;
+  width: 200px;
+  height: 200px;
+  line-height: 200px;
   text-align: center;
   background: #333;
-  color: #fff;
+  color: rgb(179, 255, 0);
   margin: 0 1px;
-  font-size: 3em;
+  font-size: 6em;
   font-weight: 300;
   align-items: center;
+  
 }
 
 .countdown div:before{
