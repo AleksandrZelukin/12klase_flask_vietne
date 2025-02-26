@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{%block content%} 
+<form method="POST">
+    <div class="container">
+      <label><b>Jūs esat veiksmīgi autorizējies</b></label>    
+  
+     <div class="container">
+      <span class="reg"> <a href="/autorizacija">Atgriezties pie autorizācijas</a></span>
+    </div>
+  </form>  
+  
+  <link rel="stylesheet" href="{{ url_for('static', filename= 'css/successfulregis.css') }}">
+{%endblock%}
