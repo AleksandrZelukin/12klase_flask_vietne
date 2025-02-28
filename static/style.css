@@ -5,6 +5,10 @@ body {
   padding: 0px;
 }
 
+#temp {
+  text-align: center;
+  color: rgb(255, 0, 72);
+}
 nav ul {
     background-color: red;
       }	
