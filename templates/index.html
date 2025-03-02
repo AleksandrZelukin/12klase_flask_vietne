@@ -1,9 +1,9 @@
 {% extends 'base.html' %}
 {%block content%} 
 
-<h1>Sveiki!</h1>
+<h1 id="temp">Sveiki!</h1>
  
-<h2><span>Līdz projekta aizstāvēšanai</span></h2>
+<h1 id="temp"><span>Līdz projekta aizstāvēšanai</span></h1>
   <div class="countdown parent" >
     <div id="day">NA</div>
     <div id="hour">NA</div>
@@ -38,4 +38,6 @@ var countDate = new Date('Apr 17, 2025 00:00:00').getTime();
     },1000)
 
 </script>
+
+<main id="app" class="fire"></main>
 {% endblock %}
