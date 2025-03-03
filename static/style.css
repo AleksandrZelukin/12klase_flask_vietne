@@ -1,13 +1,14 @@
 /* https://codepen.io/gvardovich/pen/oNNpdBQ */
 
 body {
-  background-color: rgb(80, 255, 121);
+  background-color: rgb(231, 37, 26);
   padding: 0px;
 }
 
 #temp {
   text-align: center;
   color: rgb(255, 0, 72);
+  color:aquamarine;
 }
 nav ul {
     background-color: red;
