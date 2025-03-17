@@ -33,6 +33,11 @@ def blog():
 def contact():
   return render_template("contact.html",title="KONTAKTI")
 
+@app.route('/api', methods=['GET'])
+def home():
+    return jsonify({'message': 'Hello, World!'})
+
+
 @app.route("/auth_bad")
 def bad():
   return render_template("auth_bad.html",title="Neveicmīga autorizacija")
